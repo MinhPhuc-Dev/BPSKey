@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         work.ink bypass
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/MinhPhuc-Dev/BPSKey
 // @version      2025-10-26.1
 // @description  bypasses work.ink shortened links
 // @author       Dora
 // @match        https://work.ink/*
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=work.ink
+// @homepageURL  https://github.com/MinhPhuc-Dev/BPSKey
+// @supportURL   https://github.com/MinhPhuc-Dev/BPSKey
 // @downloadURL  https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
 // @updateURL    https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
 // ==/UserScript==
