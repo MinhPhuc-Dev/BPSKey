@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         work.ink bypass
+// @name         Volcano bypass
 // @namespace    https://github.com/MinhPhuc-Dev/BPSKey
-// @version      2025-10-26.1
-// @description  bypasses work.ink shortened links
+// @version      1.0
+// @description  Just Bypass Volcano Gay!
 // @author       Dora
 // @match        https://work.ink/*
 // @match        https://key.volcano.wtf/*
