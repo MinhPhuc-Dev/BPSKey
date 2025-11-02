@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2025-10-26.1
 // @description  bypasses work.ink shortened links
-// @author       IHaxU
+// @author       Dora
 // @match        https://work.ink/*
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=work.ink
