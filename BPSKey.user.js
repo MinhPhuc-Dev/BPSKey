@@ -7,8 +7,8 @@
 // @match        https://work.ink/*
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=work.ink
-// @downloadURL  https://github.com/IHaxU/work.ink-bypass/raw/refs/heads/main/work.ink-bypass.user.js
-// @updateURL    https://github.com/IHaxU/work.ink-bypass/raw/refs/heads/main/work.ink-bypass.user.js
+// @downloadURL  https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
+// @updateURL    https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
 // ==/UserScript==
 
 (function() {
