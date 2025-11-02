@@ -15,12 +15,14 @@
 
 (function() {
     "use strict";
+    
     const DEBUG = false; // debug logging
 
     // Preserve original console methods in case the site overrides them
     const oldLog = unsafeWindow.console.log;
     const oldWarn = unsafeWindow.console.warn;
     const oldError = unsafeWindow.console.error;
+    
     // Wrapper functions prepend a tag and only log when DEBUG is true
     function log(...args) { if (DEBUG) oldLog("[UnShortener]", ...args); }
     function warn(...args) { if (DEBUG) oldWarn("[UnShortener]", ...args); }
@@ -84,6 +86,7 @@
     let _sendMessage = undefined;
     let _onLinkInfo = undefined;
     let _onLinkDestination = undefined;
+    
     // Constants
     function getClientPacketTypes() {
         return {
@@ -280,6 +283,7 @@
             }
         }, 1000);
     }
+    
     function createOnLinkDestinationProxy() {
         return function (...args) {
             const payload = args[0];
@@ -509,6 +513,12 @@
                 }
             }
         }
+    });
+
+    // Start observing the document for changes
+    observer.observe(unsafeWindow.document.documentElement, { childList: true, subtree: true });
+})();
+
     });
 
     // Start observing the document for changes
