@@ -8,9 +8,12 @@
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=work.ink
 // @homepageURL  https://github.com/MinhPhuc-Dev/BPSKey
-// @supportURL   https://github.com/MinhPhuc-Dev/BPSKey
+// @supportURL   https://github.com/MinhPhuc-Dev/BPSKey/issues
 // @downloadURL  https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
 // @updateURL    https://github.com/MinhPhuc-Dev/BPSKey/raw/refs/heads/main/BPSKey.user.js
+// @grant        unsafeWindow
+// @noframes
+// @inject-into  page
 // ==/UserScript==
 
 (function() {
@@ -513,12 +516,6 @@
                 }
             }
         }
-    });
-
-    // Start observing the document for changes
-    observer.observe(unsafeWindow.document.documentElement, { childList: true, subtree: true });
-})();
-
     });
 
     // Start observing the document for changes
